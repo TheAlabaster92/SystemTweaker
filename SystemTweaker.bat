@@ -241,14 +241,14 @@ if "%first_par%"=="-h" GOTO Help
   
   :Gaming_Enable
     echo Enabling gaming tweaks...
-    REG IMPORT %~dp0Tweaks\Tweak_Gaming_Enabled.reg
+    REG IMPORT %~dp0Tweaks\TweakGamingEnabled.reg
 	echo done.
 	
 	GOTO EOF
 	
   :Gaming_Disable
     echo Disabling gaming tweaks...
-    REG IMPORT %~dp0Tweaks\Tweak_Gaming_Disabled.reg
+    REG IMPORT %~dp0Tweaks\TweakGamingDisabled.reg
 	echo done.
 	
 	GOTO EOF
