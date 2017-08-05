@@ -45,9 +45,9 @@ GOTO Start
 	
 :NetInterfaces_Set_Game_Mode
     echo setting Network Interface %guid% for gaming profile (on 3 values)...
-    SET reg_value_1=1
-	SET reg_value_2=1
-	SET reg_value_3=0
+    SET reg_val_1=1
+	SET reg_val_2=1
+	SET reg_val_3=0
 	
 	REG ADD %reg_path% /v %reg_name_1% /t %reg_type% /d %reg_val_1% /f
 	REG ADD %reg_path% /v %reg_name_2% /t %reg_type% /d %reg_val_2% /f
